@@ -14,7 +14,7 @@
 skinparam backgroundColor $BGCOLOR
 skinparam useBetaStyle false
 skinparam handwritten true
-skinparam shadowing false
+skinparam shadowing true
 
 ''
 '' Colors taken from the css file of the BS theme
@@ -92,7 +92,7 @@ skinparam shadowing false
 ''
 '' Global Default Values
 ''
-skinparam defaultFontName       "Ubuntu"
+skinparam defaultFontName       "Courier"
 skinparam defaultFontSize       12
 skinparam dpi                   100
 skinparam shadowing             false
