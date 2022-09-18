@@ -95,7 +95,7 @@ skinparam shadowing false
 skinparam defaultFontName       "Ubuntu"
 skinparam defaultFontSize       12
 skinparam dpi                   100
-skinparam shadowing             true
+skinparam shadowing             false
 skinparam roundcorner           8
 skinparam ParticipantPadding    40
 skinparam BoxPadding            40
