@@ -92,7 +92,7 @@ skinparam shadowing false
 ''
 '' Global Default Values
 ''
-skinparam defaultFontName       "Ubuntu"
+
 skinparam defaultFontSize       12
 skinparam dpi                   100
 skinparam shadowing             false
