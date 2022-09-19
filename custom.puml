@@ -93,7 +93,7 @@ skinparam shadowing false
 '' Global Default Values
 ''
 
-skinparam defaultFontSize       12
+skinparam defaultFontSize       14
 skinparam dpi                   100
 skinparam shadowing             false
 skinparam roundcorner           8
