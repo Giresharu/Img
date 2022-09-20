@@ -5,9 +5,9 @@
             {
                 "text": "便条：指导",
                 "icon": [
-                    "{% noteblock guide yellow, 标题 %}",
-                    "* 正文",
-                    "{% endnoteblock %}"
+                    "{% noteblock guide yellow, 标题 %}\n",
+                    "* 正文\n",
+                    "{% endnoteblock %}\n"
                 ]
             },
             {
