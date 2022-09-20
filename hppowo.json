@@ -1,0 +1,52 @@
+{
+    "代码": {
+        "type": "emoticon",
+        "container": [
+            {
+                "icon": "便条：指导",
+                "text": [
+                    "{% noteblock guide yellow, 标题 %}",
+                    "* 正文",
+                    "{% endnoteblock %}"
+                ]
+            },
+            {
+                "icon": "便条：提示",
+                "text": [
+                    "{% noteblock idea blue, 标题 %}",
+                    "* 正文",
+                    "{% endnoteblock %}"
+                ]
+            },
+            {
+                "icon": "便条：TODO",
+                "text": [
+                    "{% noteblock todo, 标题 %}",
+                    "* 正文",
+                    "{% endnoteblock %}"
+                ]
+            },
+            {
+                "icon": "文字：黄色",
+                "text": " {% span yellow bold, \"正文\" %} "
+            },
+            {
+                "icon": "uml",
+                "text": [
+                    "{% plantuml %}",
+                    "!includeurl https://raw.githubusercontent.com/Giresharu/Img/master/custom.puml",
+                    "代码块",
+                    "{% endplantuml %}"
+                ]
+            },
+            {
+                "icon": "图片",
+                "text": [
+                    "{% gallery stretch midle, [列数], %}",
+                    "![图片描述](url)",
+                    "{% endgallery %}"
+                ]
+            }
+        ]
+    }
+}
