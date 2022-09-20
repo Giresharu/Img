@@ -3,36 +3,36 @@
         "type": "emoticon",
         "container": [
             {
-                "icon": "便条：指导",
-                "text": [
+                "text": "便条：指导",
+                "icon": [
                     "{% noteblock guide yellow, 标题 %}",
                     "* 正文",
                     "{% endnoteblock %}"
                 ]
             },
             {
-                "icon": "便条：提示",
-                "text": [
+                "text": "便条：提示",
+                "icon": [
                     "{% noteblock idea blue, 标题 %}",
                     "* 正文",
                     "{% endnoteblock %}"
                 ]
             },
             {
-                "icon": "便条：TODO",
-                "text": [
+                "text": "便条：TODO",
+                "icon": [
                     "{% noteblock todo, 标题 %}",
                     "* 正文",
                     "{% endnoteblock %}"
                 ]
             },
             {
-                "icon": "文字：黄色",
-                "text": " {% span yellow bold, \"正文\" %} "
+                "text": "文字：黄色",
+                "icon": " {% span yellow bold, \"正文\" %} "
             },
             {
-                "icon": "uml",
-                "text": [
+                "text": "uml",
+                "icon": [
                     "{% plantuml %}",
                     "!includeurl https://raw.githubusercontent.com/Giresharu/Img/master/custom.puml",
                     "代码块",
@@ -40,8 +40,8 @@
                 ]
             },
             {
-                "icon": "图片",
-                "text": [
+                "text": "图片",
+                "icon": [
                     "{% gallery stretch midle, [列数], %}",
                     "![图片描述](url)",
                     "{% endgallery %}"
