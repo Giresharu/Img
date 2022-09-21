@@ -1,51 +1,62 @@
 {
-    "代码": {
+    "Hexo Tag": {
         "type": "emoticon",
         "container": [
             {
-                "text": "便条：指导",
-                "icon": [
-                    "{% noteblock guide yellow, 标题 %}\n",
-                    "* 正文\n",
-                    "{% endnoteblock %}\n"
-                ]
+                "icon": "{% noteblock guide yellow, 标题 %}\n 正文\n{% endnoteblock %}\n",
+                "text": "便条：引导"
             },
             {
-                "text": "便条：提示",
-                "icon": [
-                    "{% noteblock idea blue, 标题 %}",
-                    "* 正文",
-                    "{% endnoteblock %}"
-                ]
+                "icon": "{% noteblock idea blue, 标题 %}\n 正文\n{% endnoteblock %}\n",
+                "text": "便条：提示"
             },
             {
-                "text": "便条：TODO",
-                "icon": [
-                    "{% noteblock todo, 标题 %}",
-                    "* 正文",
-                    "{% endnoteblock %}"
-                ]
+                "icon": "{% noteblock todo, 标题 %}\n 正文\n{% endnoteblock %}\n",
+                "text": "便条：列表"
             },
             {
-                "text": "文字：黄色",
-                "icon": " {% span yellow bold, \"正文\" %} "
+                "icon": "{% noteblock warning, 标题 %}\n 正文\n{% endnoteblock %}\n",
+                "text": "便条：警告"
             },
             {
-                "text": "uml",
-                "icon": [
-                    "{% plantuml %}",
-                    "!includeurl https://raw.githubusercontent.com/Giresharu/Img/master/custom.puml",
-                    "代码块",
-                    "{% endplantuml %}"
-                ]
+                "icon": "{% span yellow, \"文字内容\" %}",
+                "text": "黄字"
             },
             {
-                "text": "图片",
-                "icon": [
-                    "{% gallery stretch midle, [列数], %}",
-                    "![图片描述](url)",
-                    "{% endgallery %}"
-                ]
+                "icon": "{% del \"文字内容\" %}",
+                "text": "删除线"
+            },
+            {
+                "icon": "{% psw \"文字内容\" %}",
+                "text": "隐藏文字"
+            },
+            {
+                "icon": "{% kbd \"按键名\" %}",
+                "text": "按键图标"
+            },
+            {
+                "icon": "{% gallery stretch midle, 列数, %}\n![图片描述](url)\n{% endgallery %}",
+                "text": "图片"
+            },
+            {
+                "icon": "{% folding , \"展开\" %}\n内容\n{% endfolding %}",
+                "text": "折叠"
+            },
+            {
+                "icon": "显示文字(url地址 \"链接描述\")",
+                "text": "超链接"
+            },
+            {
+                "icon": "{% link 标题::地址url::图标url %}",
+                "text": "标签链接"
+            },
+            {
+                "icon": "{% mmedia \"bilibili\" \"bvid:BV号\" %}",
+                "text": "B站视频"
+            },
+            {
+                "icon": "{% mmedia \"audio\" \"src:地址\" \"autoplay:true\"%}",
+                "text": "音频"
             }
         ]
     }
