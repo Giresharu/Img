@@ -14,7 +14,7 @@
 skinparam backgroundColor $BGCOLOR
 skinparam useBetaStyle false
 skinparam handwritten false
-skinparam shadowing true
+skinparam shadowing false
 
 ''
 '' Colors taken from the css file of the BS theme
